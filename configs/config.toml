@@ -1,0 +1,5 @@
+[logger]
+environment = "dev"
+
+[server]
+name = "MCP Server Template"
