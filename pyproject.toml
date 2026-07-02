@@ -1,13 +1,18 @@
 [project]
-name = "mcp-server-template"
+name = "autoplot-ai-mcp"
 version = "0.1.0"
-description = "A minimal MCP server template"
+description = "Autoplot AI MCP is a Python package that provides tools for automated plotting and data visualization using machine learning techniques."
 readme = "README.md"
+authors = [
+    { name = "Santu Hazra", email = "ec.santuh@gmail.com" }
+]
 requires-python = ">=3.12"
 dependencies = [
     "loguru>=0.7.3",
     "mcp[cli]>=1.28.1",
+    "pandas>=3.0.3",
     "pydantic>=2.13.4",
     "python-dotenv>=1.2.2",
+    "requests>=2.34.2",
     "toml>=0.10.2",
 ]

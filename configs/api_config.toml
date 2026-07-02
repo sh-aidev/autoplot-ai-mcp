@@ -1,0 +1,23 @@
+[[apis]]
+name = "world_bank"
+type = "world_bank_v2"
+description = """
+World Bank Open Data (World Development Indicators) - global development \
+data covering economics, population, health, education, environment, and \
+more, broken down by country and year.
+"""
+discovery_endpoint = "https://api.worldbank.org/v2/source/2/indicator"
+data_endpoint = "https://api.worldbank.org/v2/country/all/indicator/{indicator_id}"
+format = "json"
+per_page = 1000
+
+[[apis]]
+name = "data360"
+type = "data360"
+description = """
+World Bank Data360 - a unified search and data platform spanning World Bank \
+Group and partner development indicators (economics, health, education, \
+climate, and more) across multiple source databases.
+"""
+discovery_endpoint = "https://data360api.worldbank.org/data360/searchv2"
+data_endpoint = "https://data360api.worldbank.org/data360/data"
